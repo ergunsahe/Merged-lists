@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+        
+        .container {
+            width: max-content;
+            height: max-content;
+            position: absolute;
+            top: 40%;
+            left: 30%;
+            
+
+        }
+        #first-list {
+            margin: 10px;
+            padding: 5px;
+            width: 250px;
+            border-radius: 5px;
+        }
+        #second-list {
+            margin: 10px;
+            padding: 5px;
+            width: 250px;
+            border-radius: 5px;
+        }
+
+        .label {
+            margin: 10px;
+            font-weight: bold;
+            font-size: 20px;
+            color: brown;
+        }
+        p {
+            font-size: 20px;
+            color:rgb(117, 23, 102);
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        #display {
+            font-size: 20px;
+            color:rgb(117, 23, 102);
+            font-weight: bold;
+            margin-left: 50px;
+        }
+        #btn{
+            width: 80px;
+            height: 30px;
+            background-color: blueviolet;
+            border-radius: 10px;
+            color: white;
+            font-size: 20px;
+            margin-left: 100px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Please first write first list element sperate with dash then second list</p>
+        <label class="label">First List: <br>
+            <input type="text" id="first-list" placeholder="9-5-6 or Jhon-Adam-Mike">
+        </label> <br>
+        <label class="label" >Second List: <br>
+            <input type="text" id="second-list" placeholder="9-5-6 or Jhon-Adam-Mike">
+        </label><br>
+        <button type="submit" id="btn">Send</button>
+        <p id="display"></p>
+    </div>
+    
+
+
+
+
+
+
+
+    <script src="jscript.js"></script>
+</body>
+</html>
